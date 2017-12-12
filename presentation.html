@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Annuaire ARI</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="Favicon/favicon.png" />
+  <style>
+  body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+  body, html {
+    height: 100%;
+    line-height: 1.8;
+  }
+  /* Full height image header */
+  .bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("./assets/photo-Coupe2017.jpg");
+    min-height: 100%;
+  }
+  .w3-bar .w3-button {
+    padding: 16px;
+  }
+  .primary{
+    color:#05e0c6;
+  }
+  .secondary{
+    color:#e03505;
+  }
+  .primary-back{
+    background-color: #05e0c6!important;
+  }
+  .selected{
+    background-color:#2cc7b5;
+  }
+</style>
+</head>
+<body>
+  <!-- Navbar section -->
+  <div class="w3-top">
+    <div class="w3-bar w3-white w3-card primary-back" id="myNavbar">
+      <a href="./home.html" class="w3-bar-item w3-button w3-wide">ARI</a>
+      <!-- Right-sided navbar links -->
+      <div class="w3-right w3-hide-small">
+        <a class="w3-bar-item w3-button selected"><i class="fa fa-user"></i> Les Ariciens</a>
+      </div>
+      <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
