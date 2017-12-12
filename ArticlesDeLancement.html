@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ARI Nouveau Site</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="Favicon/favicon.png" />
+  <style>
+  body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+  body, html {
+    height: 100%;
+    line-height: 1.8;
+  }
+  /* Full height image header */
+  .bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("./assets/photo-Coupe2017.jpg");
+    min-height: 100%;
+  }
+  .w3-bar .w3-button {
+    padding: 16px;
+  }
+  .primary{
+    color:#05e0c6;
+  }
+
+  .selected{
+
+  }
+  .secondary{
+    color:#e03505;
+  }
+  .secondary-back{
+    background-color:#e03505;
+  }
+  .primary-back{
+    background-color: #05e0c6!important;
+  }
+  .marron{
+    color: #e0a205
+  }
+  .marron-back{
+    background-color: #e0a205
+  }
+  .violet{
+    color: #e00581
+  }
+  .violet-back{
+    background-color: #e00581
+  }
+</style>
+</head>
+<body>
+
+  <!-- NavbarTop -->
+  <div class="w3-top w3-animate-top" >
+    <div class="w3-bar w3-white w3-card primary-back" id="myNavbar">
+      <a href="./home.html" class="w3-bar-item w3-button w3-wide">ARI</a>
+      <!-- Right-sided navbar links -->
+      <div class="w3-right w3-hide-small">
+        <a href="./equipe.html" class="w3-bar-item w3-button "><i class="fa fa-user"></i> Les Ariciens</a>
+      </div>
+      <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="w3-cell-row" style="margin-top:82px;">
+
+    <!-- Debut div SIdebar -->
+    <div>
+      <nav class="w3-cell w3-collapse w3-white w3-hide-small w3-animate-left w3-hide-medium" style="vertical-align:top;" id="mySidebar"><br>
+        <div class="w3-container">
+          <h5>Article De Lancement</h5>
+        </div>
+        <div class="w3-bar-block" style="padding-left:14px">
+          <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" onclick="w3_close()" title="close menu"><i class="fa fa-remove fa-fw"></i>&nbsp; Close Menu</a>
+          <!-- <a href="#PremieresImages" class="w3-bar-item w3-button w3-padding"></i>&nbsp;Premières images de notre simulateur</a>
+          <a href="#QuiSommesNous" class="w3-bar-item w3-button w3-padding"></i>&nbsp;Qui sommes nous ?</a>
+          <a href="#NouveauSiteWeb" class="w3-bar-item w3-button w3-padding">&nbsp;Nouveau site web</a>
+          <a href="#NouveauSponsor" class="w3-bar-item w3-button w3-padding">&nbsp;Nouveau Sponsor !</a>
+          <a href="#Modelisation3dDuRobot" class="w3-bar-item w3-button w3-padding">&nbsp;Modélisation 3d du robot</a>
+          <a href="#PhotoDuRobot" class="w3-bar-item w3-button w3-padding">&nbsp;Photo du robot</a> -->
+        </div>
+        <!-- Fin Sidebar -->
+      </nav>
+      <!-- Fin div Sidebar -->
+    </div>
+
+    <div class="w3-cell w3-border w3-card w3-padding w3-animate-right" style="padding-left:0px; width:80%">
+      <div class=" w3-container">
+        <span class=" w3-opacity">Mercredi 24 novembre 2010</span>
+        <h1 class="primary">Article De Lancement</h1>
+        <p>
+        </p>
+      </div>
+      <h3>
+        Bienvenue sur le nouveau site de l'ARI !
+      </h3>
+      <p> Nous sommes heureux de vous présenter the brand new ARI SITE ! Ici vous pourrez trouver très prochainement des articles publiés par nos Ariens dévoués. Toute notre équipe est motivé pour créer, innover, souder et souder.
+      </p>
+      <p> Rencontrez notre équipe ultra chaude <a href="./equipe.html"> ICI</a> .
+      </p>
+    </div>
+  </div>
+  <footer class="w3-center w3-bottom primary-back w3-padding-32 ">
+  <a href="#home" class="w3-button w3-brown"><i class="fa fa-arrow-up w3-margin-right"></i>Revenir en haut de la page</a>
+  <div class="w3-xlarge w3-section">
+</div>
+</footer>
+
+</body>
+<script>
+function w3_close() {
+  mySidebar.style.display = "none";
+}
+
+</script>
+
+</html>
