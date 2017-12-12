@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ARI</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="Favicon/favicon.png" />
+  <style>
+  body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+  body, html {
+    height: 100%;
+    line-height: 1.8;
+  }
+  /* Full height image header */
+  .bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("./assets/photo-Coupe2017.jpg");
+    min-height: 100%;
+  }
+  .w3-bar .w3-button {
+    padding: 16px;
+  }
+  .primary{
+    color:#05e0c6;
+  }
+
+  .selected{
+    background-color:#2cc7b5;
+  }
+  .secondary{
+    color:#e03505;
+  }
+  .primary-back{
+    background-color: #05e0c6!important;
+  }
+</style>
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="width:250;" id="mySidebar"><br>
+    <div class="w3-container">
+      <h5> Navigation</h5>
+    </div>
+    <div class="w3-bar-block">
+      <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" onclick="w3_close()" title="close menu"><i class="fa fa-remove fa-fw"></i>&nbsp; Close Menu</a>
+      <a href="#PremieresImages" class="w3-bar-item w3-button w3-padding"></i>&nbsp;Premières images de notre simulateur</a>
+      <a href="#QuiSommesNous" class="w3-bar-item w3-button w3-padding"></i>&nbsp;Qui sommes nous ?</a>
+      <a href="#NouveauSiteWeb" class="w3-bar-item w3-button w3-padding">&nbsp;Nouveau site web</a>
+      <a href="#NouveauSponsor" class="w3-bar-item w3-button w3-padding">&nbsp;Nouveau Sponsor !</a>
+      <a href="#Modelisation3dDuRobot" class="w3-bar-item w3-button w3-padding">&nbsp;Modélisation 3d du robot</a>
+      <a href="#PhotoDuRobot" class="w3-bar-item w3-button w3-padding">&nbsp;Photo du robot</a>
+    </div>
+    <!-- Fin Sidebar -->
+  </nav>
+
+  <!-- Overlay effect when opening sidebar on small screens -->
+  <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top "  >
+    <div class="w3-card w3-bar primary-back " id="myNavbar">
+      <a href="./home.html" class="w3-bar-item w3-button w3-wide w3-animate-left">ARI</a>
+      <!-- Right-sided navbar links -->
+      <div class="w3-right w3-hide-small w3-animate-right">
+        <a href="./equipe.html" class="w3-bar-item w3-button "><i class="fa fa-user"></i> Les Ariciens</a>
+      </div>
+      <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+      <a  href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <!-- Fin Navbar top -->
+  </div>
+
+  <!-- Article Premieres images de notre simulateur -->
+  <div id="PremieresImages" class="w3-content" style="margin-top:82px" style="max-width:1400px;">
+    <div class="w3-row">
+      <div class="w3-half w3-container">
+        <span class=" w3-opacity">Mercredi 24 novembre 2010</span>
+        <h1 class="primary">Premières images de notre simulateur</h1>
+        <p>
+        </p>
+      </div>
+      <div class="w3-half w3-padding-48  w3-container">
+        <object width="400" height="300"><param name="movie" value="http://www.youtube.com/v/KP2EsMrKU60?fs=1&amp;hl=fr_FR"></param>
+          <param name="allowFullScreen" value="false"></param>
+          <param name="allowscriptaccess" value="always"></param>
+          <embed src="http://www.youtube.com/v/KP2EsMrKU60?fs=1&amp;hl=fr_FR" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed>
+        </object>
+      </div>
+    </div>
+    <hr id="QuiSommesNous" class="w3-clear">
+  </div>
+
+  <!-- Article Nouveau Site -->
+  <div class="w3-content" style="margin-top:16px" style="max-width:1400px;">
+    <div class="w3-row">
+      <div class="w3-third w3-container">
+        <p class="w3-border w3-padding-large w3-padding-32 w3-center">Une image ?</p>
+        <p class="w3-border w3-padding-large w3-padding-64 w3-center">Une autre Image ?</p>
+      </div>
+      <div class="w3-twothird w3-container">
+        <span class=" w3-opacity">Vendredi 13 août 2010 </span>
+        <h1 class="primary padding-left">Qui sommes nous ?</h1>
+        <p>
+          L'<strong>Association Robotique INSA</strong> (<strong>A.R.I.</strong>) est une association suivant la loi 1901. Cette association a pour but de démocratiser les nouvelles technologies autours d'une passion commune :
+          <strong>la Robotique</strong>. Cette association constituée d'une dizaine de personnes posséde une majorité d'étudiants.
+          L'objectif principale de cette association est la participation à la <a href="http://www.planete-sciences.org/robot/index.php?section=pages&pageid=79">coupe de France de Robotique</a>.</p>
+        </div>
+      </div>
+      <hr class="w3-clear">
+    </div>
+
+    <!-- Article Nouveau Site -->
+    <div id="NouveauSiteWeb" class="w3-content" style="margin-top:16px" style="max-width:1400px;">
+      <div class="w3-container">
+        <span class=" w3-opacity">Vendredi 13 août 2010</span>
+        <h1 class="primary padding-left">Nouveau site web</h1>
+        <br/>
+        <p>
+          Nous voilà avec un nouveau site web! Au menu un portail propulsé par Drupal et un forum lui géré par phpbb.
+          A ne pas utiliser avec modération !
+        </p>
+      </div>
+      <hr class="w3-clear">
+      <!-- Fin Article Nouveau Site -->
+    </div>
+
+    <!-- Article Nouveau Sponsor -->
+    <div id="NouveauSponsor" class="w3-content" style="margin-top:16px" style="max-width:1400px;">
+      <div class="w3-container">
+        <span class=" w3-opacity">Vendredi 13 août 2010</span>
+        <h1 class="primary padding-left">Nouveau Sponsor !</h1>
+        <p>
+          Hengstler est l'un des leaders européens dans le domaine de la fabrication de composants de comptage et de commande pour l'automatisation.
+          Il nous fournira des codeurs incrémentaux RI 32. Cela va avoir pour impact direct d'améliorer notre précision sur la position du robot.
+          Grâce à cela, nos actions seront mieux contrôlées et pourront être plus rapides.
+          Nous remercions Hengstler pour la confiance qu'il nous porte.
+          Site web : <a href=http://www.hengstler.com>http://www.hengstler.com/</a>
+        </p>
+      </div>
+      <hr class="w3-text-black">
+      <!-- Fin Article Nouveau Sponsor -->
+    </div>
+
+    <!-- Article Modelisation 3D du Robot -->
+    <div id="Modelisation3dDuRobot" class="w3-content" style="margin-top:16px; vertical-align: middle; height: 100%">
+      <div class="w3-row">
+        <div class="w3-twothird w3-container">
+          <span class=" w3-opacity">Vendredi 13 août 2010</span>
+          <h1 class="primary padding-left">Modélisation 3d du robot</h1>
+          <p>
+          </p>
+        </div>
+        <div class="w3-third w3-container" >
+          <img width="100%" class="w3-center" style="padding-top:32px" src="./assets/Articles/robot11.jpg">
+          <img  width="100%" class="w3-center" src="./assets/Articles/robot12.jpg">
+        </div>
+      </div>
+      <hr class="w3-clear"/>
+      <!-- Fin Article Modelisation 3D du Robot -->
+    </div>
+
+    <div id="PhotoDuRobot" class="w3-content" style="margin-top:16px" style="max-width:1400px;">
+      <div class="w3-container" >
+        <span class="w3-opacity">Jeudi 29 septembre 2011</span>
+        <h1 class="primary padding-left">Photo du robot</h1>
+        <p>
+          <img src="./assets/Articles/IMG_0167.jpg"  width="700">
+        </p>
+      </div>
+    </div>
+
+    <footer class="w3-center w3-black w3-padding-64">
+      <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+      <div class="w3-xlarge w3-section">
+      </div>
+    </footer>
+    <script>
+    // Get the Sidebar
+    var mySidebar = document.getElementById("mySidebar");
+
+    // Get the DIV with overlay effect
+    var overlayBg = document.getElementById("myOverlay");
+
+    // Toggle between showing and hiding the sidebar, and add overlay effect
+    function w3_open() {
+      if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+        overlayBg.style.display = "none";
+      } else {
+        mySidebar.style.display = 'block';
+        overlayBg.style.display = "block";
+      }
+    }
+
+    // Close the sidebar with the close button
+    function w3_close() {
+      mySidebar.style.display = "none";
+      overlayBg.style.display = "none";
+    }
+    </script>
+  </body>
+  </html>
